@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 100%;
+    background-color: black;
+}
+
+
+.wrapper {
+    display: table;
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+
+    font-family: 'VT323', monospace;
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+.container {
+margin-right: auto;
+margin-left: auto;
+display: block;
+}
+
+.canvas-container {
+    position: relative;
+    min-width: 320px;
+}
+
+#game-layer {
+    width: 100%;
+    vertical-align: center;
+    z-index: 0;
+}
+
+#title {
+    width:100%;
+    font-size: 36px;
+    text-align: center;
+    line-height: 1em;
+
+    position: absolute;
+    z-index: 1;
+}
+
+.widebar {
+    width:100%;
+
+    font-size: 28px;
+    line-height: 1em;
+    text-align: center;
+    padding-left: 10px;
+}
+
+#lives img {
+    width:18px;
+}
+
+#highscores {
+    font-size: 25px;
+    line-height: 0.8em;
+    width:100%;
+    position: absolute;
+
+    z-index: 2;
+
+    display: none;
+}
+
+#scoretable {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border: 0px solid white;
+    border-collapse: collapse;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#scoretable .colheader {
+    text-align: center;
+}
+
+#scoretable .col1 {
+    text-align: right;
+    width:1%;
+}
+
+#scoretable .col2 {
+    text-align: right;
+    width:99%;
+}
+
+#menu {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 1em;
+    z-index: 3;
+}
+
+#start_button {
+    background-color: black;
+    color: rgb(255, 233, 0);
+    font-family: 'VT323', monospace;
+    font-size: 40px;
+
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-width: 0px;
+    border-color: rgb(247, 245, 199);
+}
